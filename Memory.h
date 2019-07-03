@@ -45,8 +45,8 @@ public:
     return true;
   }
 
-  bool SaveWord(const unsigned int &addr, const Word &word){
-    if(addr + 3 > MemoryMaxSize)
+  bool SaveWord(const unsigned int &addr, const Word &word) {
+    if (addr + 3 > MemoryMaxSize)
       return false;
     this->memory_core[addr] = word.core.u1;
     this->memory_core[addr + 1] = word.core.u2;
@@ -55,5 +55,6 @@ public:
     return true;
   }
 };
+Memory memoryCore;
 
 #endif // RISC_V_SIM_MEMORY_H

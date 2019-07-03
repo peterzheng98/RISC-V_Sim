@@ -3,4 +3,4 @@ project(RISC_V_Sim)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RISC_V_Sim main.cpp Memory.cpp CoreType.h)
+add_executable(RISC_V_Sim main.cpp Memory.h CoreType.h Register.h Instruction.h)

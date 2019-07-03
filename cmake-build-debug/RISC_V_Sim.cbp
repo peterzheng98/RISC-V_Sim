@@ -83,10 +83,13 @@
 		<Unit filename="/Users/peterzheng/CLionProjects/RISC-V_Sim/CoreType.h">
 			<Option target="RISC_V_Sim"/>
 		</Unit>
-		<Unit filename="/Users/peterzheng/CLionProjects/RISC-V_Sim/Memory.cpp">
+		<Unit filename="/Users/peterzheng/CLionProjects/RISC-V_Sim/Instruction.h">
 			<Option target="RISC_V_Sim"/>
 		</Unit>
 		<Unit filename="/Users/peterzheng/CLionProjects/RISC-V_Sim/Memory.h">
+			<Option target="RISC_V_Sim"/>
+		</Unit>
+		<Unit filename="/Users/peterzheng/CLionProjects/RISC-V_Sim/Register.h">
 			<Option target="RISC_V_Sim"/>
 		</Unit>
 		<Unit filename="/Users/peterzheng/CLionProjects/RISC-V_Sim/main.cpp">
