@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/peterzheng/CLionProjects/RISC-V_Sim/cmake-build-debug
 CMakeFiles/RISC_V_Sim.dir/all:
 	$(MAKE) -f CMakeFiles/RISC_V_Sim.dir/build.make CMakeFiles/RISC_V_Sim.dir/depend
 	$(MAKE) -f CMakeFiles/RISC_V_Sim.dir/build.make CMakeFiles/RISC_V_Sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/peterzheng/CLionProjects/RISC-V_Sim/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target RISC_V_Sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/peterzheng/CLionProjects/RISC-V_Sim/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target RISC_V_Sim"
 .PHONY : CMakeFiles/RISC_V_Sim.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/RISC_V_Sim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RISC_V_Sim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/peterzheng/CLionProjects/RISC-V_Sim/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/peterzheng/CLionProjects/RISC-V_Sim/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RISC_V_Sim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/peterzheng/CLionProjects/RISC-V_Sim/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/RISC_V_Sim.dir/rule

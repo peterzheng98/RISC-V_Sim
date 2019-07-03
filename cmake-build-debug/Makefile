@@ -123,6 +123,33 @@ RISC_V_Sim/fast:
 	$(MAKE) -f CMakeFiles/RISC_V_Sim.dir/build.make CMakeFiles/RISC_V_Sim.dir/build
 .PHONY : RISC_V_Sim/fast
 
+Memory.o: Memory.cpp.o
+
+.PHONY : Memory.o
+
+# target to build an object file
+Memory.cpp.o:
+	$(MAKE) -f CMakeFiles/RISC_V_Sim.dir/build.make CMakeFiles/RISC_V_Sim.dir/Memory.cpp.o
+.PHONY : Memory.cpp.o
+
+Memory.i: Memory.cpp.i
+
+.PHONY : Memory.i
+
+# target to preprocess a source file
+Memory.cpp.i:
+	$(MAKE) -f CMakeFiles/RISC_V_Sim.dir/build.make CMakeFiles/RISC_V_Sim.dir/Memory.cpp.i
+.PHONY : Memory.cpp.i
+
+Memory.s: Memory.cpp.s
+
+.PHONY : Memory.s
+
+# target to generate assembly for a file
+Memory.cpp.s:
+	$(MAKE) -f CMakeFiles/RISC_V_Sim.dir/build.make CMakeFiles/RISC_V_Sim.dir/Memory.cpp.s
+.PHONY : Memory.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... RISC_V_Sim"
+	@echo "... Memory.o"
+	@echo "... Memory.i"
+	@echo "... Memory.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

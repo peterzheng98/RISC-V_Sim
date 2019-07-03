@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/peterzheng/CLionProjects/RISC-V_Sim/Memory.cpp" "/Users/peterzheng/CLionProjects/RISC-V_Sim/cmake-build-debug/CMakeFiles/RISC_V_Sim.dir/Memory.cpp.o"
   "/Users/peterzheng/CLionProjects/RISC-V_Sim/main.cpp" "/Users/peterzheng/CLionProjects/RISC-V_Sim/cmake-build-debug/CMakeFiles/RISC_V_Sim.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
